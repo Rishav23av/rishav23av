@@ -13,36 +13,33 @@ I'm a B.Tech student specializing in Artificial Intelligence and Machine Learnin
 ## 🛠️ Technical Skills
 
 ```
-Programming Languages: Python | Java | C++ | JavaScript | HTML/CSS
-Frameworks & Libraries: TensorFlow | PyTorch | React | Node.js | Flask
-Tools & Technologies:   Git | Docker | AWS | MongoDB | SQL | Linux
-AI/ML:                  Machine Learning | Deep Learning | Data Analysis | NLP
+Programming Languages: Python, Java, C++, JavaScript, HTML/CSS
+Frameworks & Libraries: TensorFlow, PyTorch, React, Node.js, Flask
+Tools & Technologies:   Git, Docker, AWS, MongoDB, SQL, Linux
+AI/ML:                  Machine Learning, Deep Learning, Data Analysis, NLP
 ```
 
 ## 🚀 Projects
 
-### AI-Powered Music Recommendation System
-Built a recommendation engine using collaborative filtering and content-based approaches to suggest personalized music based on user preferences and listening patterns.
-- **Tech stack**: Python, TensorFlow, Flask, MongoDB
-- **Key features**: User preference tracking, similarity algorithms, A/B testing framework
+### AI-Powered Anime/Manga Recommendation System
+Built an intelligent recommendation engine that suggests personalized anime and manga titles based on user preferences, viewing history, and content similarities.
 
-### Personal Finance Dashboard
-Developed a web application to visualize spending habits and provide financial insights.
-- **Tech stack**: React, Node.js, Chart.js, PostgreSQL
-- **Key features**: Budget tracking, expense categorization, visualization tools
+**Tech stack**: Python, TensorFlow, Flask, MongoDB, React
 
-### Smart Classroom Attendance System
-Created a facial recognition system to automate student attendance tracking.
-- **Tech stack**: Python, OpenCV, TensorFlow, Django
-- **Key features**: Real-time recognition, admin dashboard, attendance reports
+**Key features**:
+- Content-based filtering using natural language processing on synopses and tags
+- Collaborative filtering based on user ratings and viewing patterns
+- Image-based recommendations using convolutional neural networks on anime/manga visuals
+- Interactive UI with personalized recommendation feeds
+- User preference tracking and profile customization
+- Recommendation explanations showing why titles were suggested
 
 ## 📫 Let's Connect
 
 I'm always open to collaborating on projects or discussing new ideas!
 
-- 📧 Email: rishav@example.com
-- 💼 LinkedIn: [linkedin.com/in/rishav](https://linkedin.com/in/rishav)
-- 🐦 Twitter: [@rishav_codes](https://twitter.com/rishav_codes)
+- 📧 Email: rishav12av@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/rishav-dev](https://www.linkedin.com/in/rishav-dev)
 
 ## 🔮 Future Plans
 
@@ -50,7 +47,5 @@ I'm always open to collaborating on projects or discussing new ideas!
 - Develop expertise in reinforcement learning and generative AI
 - Create accessible AI tools for developers and businesses
 - Complete internships with leading tech companies
-
-> "The best way to predict the future is to create it." - Abraham Lincoln
 
 ⚡ **Fun fact**: When I'm not coding, you'll find me playing chess or hiking mountains!
