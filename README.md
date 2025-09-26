@@ -48,4 +48,4 @@ I'm always open to collaborating on projects or discussing new ideas!
 - Create accessible AI tools for developers and businesses
 - Complete internships with leading tech companies
 
-⚡ **Fun fact**: When I'm not coding, you'll find me playing chess or hiking mountains!
+⚡ **Fun fact**: When I'm not coding, you'll find me playing chess or hiking mountains! 
