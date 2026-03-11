@@ -26,12 +26,28 @@
 
 ```yaml
 name: Rishav
-age: 20
+dob: 11 Oct 2004
 location: Delhi, India 🇮🇳
 role: CS Student → AI Builder
 currently_using: MacBook Pro M4 Pro + Linux Mint
 obsession: Making LLMs actually do useful things
 ```
+
+<div align="left">
+
+**Age (live):** &nbsp;
+![Age](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.agify.io%3Fname%3Drishav&query=%24.count&label=born%2011%20Oct%202004&color=00FFFF&style=flat-square&logo=cake)
+&nbsp; <!-- GitHub renders this as static; see note below -->
+
+<!-- 
+  🎂 DOB: 11 October 2004
+  Age auto-calculated below via GitHub Actions (see .github/workflows/update-readme.yml)
+  Current age is dynamically injected here on every push/schedule:
+-->
+
+**🎂 Born:** `11 Oct 2004` &nbsp;|&nbsp; **Age:** <!-- AGE_START -->21<!-- AGE_END --> *(auto-updated)*
+
+</div>
 
 I build things that matter — **LLM-powered agents**, intelligent automation, and real-world web apps. Not just tutorials and toy projects. Actual stuff that works.
 
