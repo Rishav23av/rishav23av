@@ -1,0 +1,46 @@
+name: Update README Age
+
+on:
+  schedule:
+    - cron: "0 0 11 10 *"   # Runs on Oct 11 every year (your birthday 🎂)
+  workflow_dispatch:          # Also allows manual trigger anytime
+  push:
+    branches: [main]
+
+jobs:
+  update-age:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Calculate and update age
+        run: |
+          python3 - <<'EOF'
+          from datetime import date
+          import re
+
+          dob = date(2004, 10, 11)
+          today = date.today()
+          age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          updated = re.sub(
+              r"<!-- AGE_START -->.*?<!-- AGE_END -->",
+              f"<!-- AGE_START -->{age}<!-- AGE_END -->",
+              content
+          )
+
+          with open("README.md", "w") as f:
+              f.write(updated)
+
+          print(f"Updated age to {age}")
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "🎂 Auto-update age to $(date +'%Y')" && git push)
