@@ -13,7 +13,7 @@
 
 ---
 
-## `whoami`
+## `who am i`
 
 ```yaml
 name:       Rishav
