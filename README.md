@@ -24,7 +24,7 @@ setup:      MacBook Pro M4 Pro + Linux Mint
 obsession:  Making LLMs actually do useful things
 ```
 
-🎂 **Age:** <!-- AGE_START -->21<!-- AGE_END --> *(auto-updates every birthday)*
+🎂 **Age:** <!-- AGE_START -->21<!-- AGE_END --> 
 
 I build things that matter — **LLM-powered agents**, intelligent automation, and real-world web apps. Not just tutorials and toy projects. Actual stuff that works.
 
