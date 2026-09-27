@@ -108,23 +108,6 @@ Login/signup, live event itinerary, **QR-based attendance tracking**, admin dash
 
 `React` `TypeScript` `Tailwind CSS` `Vite`
 
-<br/>
-
-### 🤖 AI Agent Web App
-> Multi-agent system that acts as a smart virtual assistant
-
-Autonomously **books appointments**, **sends emails**, **schedules meetings**, and **replies to messages** — powered by LLM APIs and automation logic.
-
-`Python` `LLM APIs` `AI Agents` `Automation Frameworks`
-
-<br/>
-
-### 🛍️ React Shopping Website
-> Modern e-commerce UI with a clean developer-first approach
-
-Product catalog, cart management, and smooth UX built to production standards.
-
-`React` `Tailwind CSS`
 
 <br/>
 
